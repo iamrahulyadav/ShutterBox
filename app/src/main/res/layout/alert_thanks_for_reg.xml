@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffffff"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thanks for registering"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="25.0dip"
+            android:id="@+id/sorryTxt" />
+
+        <TextView
+            android:id="@+id/blahTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10.0dip"
+            android:gravity="center"
+            android:text="You will be notified after being approved.\nCheck your mailbox. See ya soon"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18.0dip" />
+
+        <Button
+            android:id="@+id/tryAgainBtn"
+            android:layout_width="fill_parent"
+            android:layout_height="40.0dip"
+            android:layout_gravity="center"
+            android:layout_marginLeft="40.0dip"
+            android:layout_marginRight="40.0dip"
+            android:layout_marginTop="10.0dip"
+            android:background="@drawable/bg_button_primary"
+            android:text="OK"
+            android:textColor="#ffffffff"
+            android:textSize="25.0dip" />
+    </LinearLayout>
+</LinearLayout>

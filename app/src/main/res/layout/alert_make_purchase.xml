@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerVertical="true"
+        android:paddingTop="20dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:paddingBottom="20dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorPrimary"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sorry"
+            android:textColor="@color/white"
+            android:textSize="22dp"
+            android:gravity="center_horizontal"
+            android:id="@+id/pxTxt" />
+
+        <View
+            android:layout_width="250dp"
+            android:layout_height="3dp"
+            android:layout_marginTop="5dp"
+            android:background="#80ffffff"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="140dp"
+            android:text="The password is incorrect.\n Please retype your password"
+            android:textColor="@color/white"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal"
+            android:textSize="15dp"
+            android:id="@+id/secTxt" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="40.0dip"
+            android:layout_gravity="center"
+            android:paddingRight="60dp"
+            android:paddingLeft="60dp"
+            android:layout_marginBottom="40dp"
+            android:layout_marginTop="15.0dip"
+            android:background="@drawable/bg_button_white"
+            android:text="OK"
+            android:textColor="@color/colorPrimary"
+            android:textSize="25.0dip"
+            android:id="@+id/okBtn" />
+    </LinearLayout>
+</RelativeLayout>

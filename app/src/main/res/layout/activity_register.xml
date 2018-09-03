@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin">
+
+        <ImageView
+            android:id="@+id/backImg"
+            android:layout_width="wrap_content"
+            android:padding="5dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_back" />
+
+        <TextView
+            android:id="@+id/regTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20.0dip"
+            android:text="Register yourself"
+            android:textColor="@color/colorPrimary"
+            android:textSize="35.0dip"
+            android:typeface="normal" />
+
+        <EditText
+            android:id="@+id/fullNameField"
+            android:layout_width="fill_parent"
+            android:layout_height="40.0dip"
+            android:layout_gravity="center"
+            android:layout_marginTop="10.0dip"
+            android:background="@drawable/edittext_bg"
+            android:gravity="center"
+            android:hint="Name"
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/colorPrimary"
+            android:textSize="20.0dip" />
+
+        <EditText
+            android:id="@+id/phoneNumberField"
+            android:layout_width="fill_parent"
+            android:layout_height="40.0dip"
+            android:layout_gravity="center"
+            android:layout_marginTop="10.0dip"
+            android:background="@drawable/edittext_bg"
+            android:gravity="center"
+            android:hint="Phone Number"
+            android:inputType="number"
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/colorPrimary"
+            android:textSize="20.0dip" />
+
+        <EditText
+            android:id="@+id/emailField"
+            android:layout_width="fill_parent"
+            android:layout_height="40.0dip"
+            android:layout_gravity="center"
+            android:layout_marginTop="10.0dip"
+            android:background="@drawable/edittext_bg"
+            android:gravity="center"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/colorPrimary"
+            android:textSize="20.0dip" />
+
+        <EditText
+            android:id="@+id/dobField"
+            android:layout_width="fill_parent"
+            android:layout_height="40.0dip"
+            android:layout_gravity="center"
+            android:layout_marginTop="10.0dip"
+            android:background="@drawable/edittext_bg"
+            android:drawableRight="@drawable/ic_drawable_calender"
+            android:editable="false"
+            android:gravity="center"
+            android:hint="Date Of Birth"
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/colorPrimary"
+            android:textSize="20.0dip" />
+
+        <EditText
+            android:id="@+id/genderField"
+            android:layout_width="fill_parent"
+            android:layout_height="40.0dip"
+            android:layout_gravity="center"
+            android:layout_marginTop="10.0dip"
+            android:background="@drawable/edittext_bg"
+            android:drawableRight="@drawable/ic_drawable_dropdown"
+            android:editable="false"
+            android:gravity="center"
+            android:hint="Gender"
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/colorPrimary"
+            android:textSize="20.0dip" />
+
+        <EditText
+            android:id="@+id/nationalityField"
+            android:layout_width="fill_parent"
+            android:layout_height="40.0dip"
+            android:layout_gravity="center"
+            android:layout_marginTop="10.0dip"
+            android:background="@drawable/edittext_bg"
+            android:drawableRight="@drawable/ic_drawable_dropdown"
+            android:editable="false"
+            android:gravity="center"
+            android:hint="Nationality"
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/colorPrimary"
+            android:textSize="20.0dip" />
+
+        <EditText
+            android:id="@+id/passwordField"
+            android:layout_width="fill_parent"
+            android:layout_height="40.0dip"
+            android:layout_gravity="center"
+            android:layout_marginTop="10.0dip"
+            android:background="@drawable/edittext_bg"
+            android:gravity="center"
+            android:hint="Password"
+            android:inputType="numberPassword"
+            android:maxLength="4"
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/colorPrimary"
+            android:textSize="20.0dip"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/confirmPasswordField"
+            android:layout_width="fill_parent"
+            android:layout_height="40.0dip"
+            android:layout_gravity="center"
+            android:layout_marginTop="10.0dip"
+            android:background="@drawable/edittext_bg"
+            android:gravity="center"
+            android:hint="Confirm Password"
+            android:inputType="numberPassword"
+            android:maxLength="4"
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/colorPrimary"
+            android:textSize="20.0dip"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/registerBtn"
+            android:layout_width="fill_parent"
+            android:layout_height="40.0dip"
+            android:layout_gravity="center"
+            android:layout_marginTop="15.0dip"
+            android:background="@drawable/bg_button_primary"
+            android:text="Register"
+            android:textColor="#ffffffff"
+            android:textSize="25.0dip" />
+    </LinearLayout>
+</ScrollView>
